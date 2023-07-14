@@ -29,7 +29,7 @@
     position: absolute;
     height: 43px;
     top: 17px;
-    left: 875px;
+    left: 70%;
     border-radius: 45%;
     background-color: rgb(36, 36, 36);
     padding: 10px;
@@ -38,28 +38,28 @@
 #globo {
     position: absolute;
     height: 20px;
-    top: 29px;
-    left: 926px;
+    top: 30px;
+    left: 74%;
     padding: 2px;
 
 }
 
 
-#globo:hover{
+#globo:hover {
     position: absolute;
-    height: 35px;
-    top: 21px;
-    left: 919px;
+    position: absolute;
+    height: 20px;
+    top: 30px;
+    left: 74%;
     padding: 2px;
     border-radius: 15%;
     background-color: rgb(36, 36, 36);
-    padding: 10px;
 }
 
 .iniciarsessao {
     position: absolute;
     top: 22px;
-    left: 970px;
+    left: 76%;
     padding: 8px;
     border-radius: 5%;
     background-color: rgb(43, 43, 43);
@@ -70,9 +70,9 @@
 .jogueagora {
     position: absolute;
     top: 22px;
-    left: 1130px;
+    left: 87%;
     padding: 8px;
-    border-radius: 10%;
+    border-radius: 5%;
     background-color: rgb(11, 196, 226);
     font-size: 15px;
     font-weight: bold;
@@ -82,7 +82,7 @@
 .wallpaper {
     position: absolute;
     height: 500px;
-    width: 1180px;
+    width: 90%;
     top: 135px;
     left: 60px;
     object-fit: cover;
@@ -95,8 +95,9 @@
 .wallpaper2 {
     position: absolute;
     height: 500px;
-    width: 1380px;
+    width: 100%;
     object-fit: cover;
+    align-items: center;
 }
 
 #wallpaperlogo {
@@ -104,6 +105,7 @@
     height: 236px;
     left: 387px;
     top: 239px;
+
 }
 
 #joguedegraca {
@@ -121,6 +123,36 @@
     border: 1px solid white;
 
 
+}
+
+.noticias {
+    position: absolute;
+    top: 700px;
+    left: 60px;
+    letter-spacing: 250px;
+
+}
+.noticiasimg {
+    height: 200px;
+    width: 150px;
+}
+.att {
+    position: absolute;
+    width: 200px;
+    top: 700px;
+    left: 220px;
+}
+.torneios {
+    position: absolute;
+    width: 200px;
+    top: 700px;
+    left: 625px;
+}
+.soulfighter{
+    position: absolute;
+    width: 200px;
+    top: 700px;
+    left: 1030px;
 }
 
 header {
