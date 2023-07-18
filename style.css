@@ -132,27 +132,42 @@
     letter-spacing: 250px;
 
 }
+
 .noticiasimg {
     height: 200px;
     width: 150px;
 }
+
 .att {
     position: absolute;
     width: 200px;
     top: 700px;
     left: 220px;
 }
+
 .torneios {
     position: absolute;
     width: 200px;
     top: 700px;
     left: 625px;
 }
-.soulfighter{
+
+.soulfighter {
     position: absolute;
     width: 200px;
     top: 700px;
     left: 1030px;
+}
+
+.cinza {
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+
+.newstext {
+    font-size: 12px;
 }
 
 header {
