@@ -10,6 +10,35 @@
     src: url("./src/lolfont/FontFont_FF.Mark.Pro.Heavy.otf")
 }
 
+.headerul {
+    display: inline-flex;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 170px;
+}
+
+.headerli {
+    display: flex;
+    position: static;
+    margin: 24px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.headerli:hover {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10%;
+    background-color: rgb(43, 43, 43);
+    line-height: 20px;
+    text-decoration: none;
+}
+
 #logo {
     position: absolute;
     left: 25px;
@@ -267,6 +296,18 @@
     left: 72%;
     width: 45%;
     transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+.classes {
+    position: absolute;
+    top: 1350px;
+    left: 30%;
+    height: 10%;
+    display: inline-flex;
+    text-decoration: none;
+
+    transform: translate(-50%, -50%);
 }
 
 header {
@@ -275,36 +316,6 @@ header {
     height: 80px;
     background-color: rgb(17, 17, 17);
 
-}
-
-ul {
-    display: inline-flex;
-    position: relative;
-    height: 80px;
-    cursor: pointer;
-    align-items: center;
-    margin-left: 170px;
-}
-
-li {
-    display: flex;
-    position: static;
-    margin: 24px;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: white;
-    text-decoration: none;
-}
-
-li:hover {
-    position: static;
-    display: inline-flex;
-    align-items: center;
-    border-radius: 10%;
-    background-color: rgb(43, 43, 43);
-    line-height: 20px;
-    text-decoration: none;
 }
 
 a {
