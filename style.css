@@ -255,7 +255,6 @@
 .DESCUBRAMAIS {
     position: absolute;
     top: 1150px;
-    position: absolute;
     text-align: center;
     width: 210px;
     left: 41%;
@@ -301,14 +300,26 @@
 
 .classes {
     position: absolute;
-    top: 1350px;
-    left: 30%;
-    height: 10%;
     display: inline-flex;
-    text-decoration: none;
-
+    top: 1340px;
+    left: 29%;
     transform: translate(-50%, -50%);
 }
+
+.imagem {
+    width: 22%;
+    transform: translate(-50%, -50%);
+}
+
+
+.slide {
+    opacity: 0;
+    transition: opacity 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
 
 header {
     opacity: 1;
@@ -322,3 +333,8 @@ a {
     text-decoration: none;
     color: white;
 }
+button {
+    border: 0px;
+    background-color: transparent;
+}
+
