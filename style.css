@@ -165,10 +165,10 @@
 .noticias {
     position: absolute;
     top: 800px;
-    left: 140px;
+    left: 10%;
     letter-spacing: 250px;
 
-    
+
 
 }
 
@@ -295,19 +295,18 @@
     left: 72%;
     width: 45%;
     transform: translate(-50%, -50%);
-    text-decoration: none;
 }
 
 .classes {
     position: absolute;
-    display: inline-flex;
-    top: 1340px;
-    left: 29%;
+    display: inline-table;
+    top: 1260px;
+    left: 38%;
     transform: translate(-50%, -50%);
 }
 
 .imagem {
-    width: 22%;
+    width: 3%;
     transform: translate(-50%, -50%);
 }
 
@@ -315,11 +314,25 @@
 .slide {
     opacity: 0;
     transition: opacity 1s ease;
-  }
-  
-  .slide.active {
+}
+
+.slide.active {
     opacity: 1;
-  }
+}
+
+.slide2 {
+    display: inline;
+    letter-spacing: 65px;
+}
+
+.assassin {
+    position: absolute;
+    display: inline-table;
+    width: 36%;
+    top: 1530px;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
 
 header {
     opacity: 1;
@@ -333,8 +346,8 @@ a {
     text-decoration: none;
     color: white;
 }
+
 button {
     border: 0px;
     background-color: transparent;
 }
-

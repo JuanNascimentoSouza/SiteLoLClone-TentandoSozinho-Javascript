@@ -1,13 +1,13 @@
 document.querySelector('video').play();
 
-const slides = document.querySelectorAll('.slide');
+const slides = document.querySelectorAll('.slide', '.slide2');
 let currentSlide = 0;
 
 function showSlide() {
   slides.forEach((slide, index) => {
-    slide.classList.remove('active');
+    slide.classList.remove('active','active2');
     if (index === currentSlide) {
-      slide.classList.add('active');
+      slide.classList.add('active','active2');
     }
   });
 }
