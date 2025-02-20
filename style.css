@@ -4,108 +4,102 @@
     font-family: sans-serif;
 }
 
+
 @font-face {
     font-family: BeaufortForLoL-OTF;
     src: url("./src/BeaufortForLoL-OTF/BeaufortforLOL-Heavy.otf");
     src: url("./src/lolfont/FontFont_FF.Mark.Pro.Heavy.otf")
 }
 
-.headerul {
-    display: inline-flex;
-    position: relative;
-    height: 80px;
-    cursor: pointer;
-    align-items: center;
-    margin-left: 170px;
-}
-
-.headerli {
+/* Estilo do menu de navegação */
+.navbar {
+    background-color: #0a0a0a;
     display: flex;
-    position: static;
-    margin: 24px;
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: white;
-}
-
-.headerli:hover {
-    position: static;
-    display: inline-flex;
     align-items: center;
-    border-radius: 10%;
-    background-color: rgb(43, 43, 43);
-    line-height: 20px;
+    justify-content: space-between;
+    padding: 15px 40px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.nav-links a {
+    color: #ffffff;
     text-decoration: none;
-}
-
-#logo {
-    position: absolute;
-    left: 25px;
-    top: 8px;
-    height: 65px;
-    padding: 3px;
-}
-
-#logo2 {
-    position: absolute;
-    height: 25px;
-    top: 26px;
-    left: 155px;
-}
-
-#lupa {
-    position: absolute;
-    height: 43px;
-    top: 17px;
-    left: 70%;
-    border-radius: 45%;
-    background-color: rgb(36, 36, 36);
-    padding: 10px;
-}
-
-#globo {
-    position: absolute;
-    height: 20px;
-    top: 30px;
-    left: 74%;
-    padding: 2px;
-
-}
-
-
-#globo:hover {
-    position: absolute;
-    position: absolute;
-    height: 20px;
-    top: 30px;
-    left: 74%;
-    padding: 2px;
-    border-radius: 15%;
-    background-color: rgb(36, 36, 36);
-}
-
-.iniciarsessao {
-    position: absolute;
-    top: 22px;
-    left: 76%;
-    padding: 8px;
-    border-radius: 5%;
-    background-color: rgb(43, 43, 43);
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
 }
 
-.jogueagora {
-    position: absolute;
-    top: 22px;
-    left: 87%;
-    padding: 8px;
-    border-radius: 5%;
-    background-color: rgb(11, 196, 226);
-    font-size: 15px;
+.nav-links a:hover {
+    color: #1da1f2;
+}
+
+.navheader {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: #ffffff;
+
+}
+
+.navheader:hover {
+    color: rgb(200, 170, 110);
+    text-decoration: underline 3px;
+    text-underline-offset: 25px;
+    text-decoration-color: #1da1f2;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 45px;
+    cursor: pointer;
+}
+
+.search-icon {
+    background-color: #222;
+    padding: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+
+.play-button {
+    background-color: #00AEEF; /* Azul */
+    color: #000000;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-transform: uppercase;
     font-weight: bold;
-    color: black;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.play-button:hover {
+    background-color: #008ecf;
+    color: rgb(200, 170, 110);
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px; /* Espaçamento entre os itens do menu */
+}
+
+.playbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0a0a0a;
+    font-size: 13px;
+    color: #ffffff;
 }
 
 .wallpaper {
@@ -306,8 +300,14 @@
 }
 
 .imagem {
-    width: 3%;
+    width: 4%;
     transform: translate(-50%, -50%);
+    border: 1px solid #000000; /* cor e espessura da borda */
+    border-radius: 50%;
+    background-color: transparent;
+    display: inline-block;
+    padding: 5px;
+    
 }
 
 
